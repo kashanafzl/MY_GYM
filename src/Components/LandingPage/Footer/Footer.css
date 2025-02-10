@@ -1,0 +1,38 @@
+
+
+.footerdiv{
+    background-color: black;
+    text-align: center;
+    padding-block: 4rem;
+}
+
+.fflex{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 4rem;
+    font-family: "Poppins", serif;
+}
+
+.fflex li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.fflex li a:hover{
+    color: var(--maincolor);
+}
+
+
+.footerline{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    background-color: var(--bgcolor);
+    padding-block: 2rem;
+    font-family: "Poppins", serif;
+    color: #fff;
+}

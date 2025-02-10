@@ -1,0 +1,205 @@
+/* Background */
+.bgdiv {
+    background-image: url('../../../Assets/img/bg.svg');
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  /* Navbar */
+  .navbardiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 7rem;
+    padding-block: 2rem;
+    font-family: "Bebas Neue", serif;
+    border-bottom: 2px solid gray;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 120px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+  }
+  
+  .uflex {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+  }
+  
+  .uflex li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: 0.3s;
+  }
+  
+  .uflex li a:hover {
+    color: var(--maincolor);
+  }
+  
+  /* Button */
+  .nav-button button {
+    background-color: var(--maincolor);
+    padding: 1rem 1.5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+
+  .maincontentdiv{
+    padding-inline: 7rem;
+    padding-top: 4rem;
+  }
+
+  .maincontentdiv h1 {
+    color: #fff;
+    font-size: 9rem;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 0.5rem;
+  }
+  
+  .maincontentdiv span {
+    color: var(--maincolor);
+  }
+  
+  .maincontentdiv p {
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-size: 1.8rem;
+  }
+  
+  .maincontentdiv button {
+    background-color: transparent;
+    padding: 1.5rem 2.5rem;
+    border: 2px solid var(--maincolor);
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .maincontentdiv button:hover {
+    background-color: var(--maincolor);
+  }
+
+
+  /* Hamburger Menu */
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: 0.3s;
+  }
+  
+  /* Open Hamburger Animation */
+  .hamburger-menu.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  /* Mobile Navigation */
+  @media (max-width: 1024px) {
+    .navbardiv {
+      padding: 1.5rem 2rem;
+    }
+  
+    .uflex {
+      gap: 1.5rem;
+    }
+  
+    .maincontentdiv h1 {
+      font-size: 4rem;
+    }
+  
+    .maincontentdiv p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background: rgba(0, 0, 0, 0.95);
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem 0;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .logo img {
+        width: 65px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .uflex {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+    }
+  
+    .maincontentdiv h1 {
+      font-size: 3rem;
+    }
+  
+    .maincontentdiv p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbardiv {
+      padding-inline: 4rem;
+    }
+
+    .maincontentdiv{
+        padding-inline: 4rem;
+    }
+  
+    .maincontentdiv h1 {
+      font-size: 2.5rem;
+    }
+  
+    .maincontentdiv p {
+      font-size: 1rem;
+    }
+  
+    .maincontentdiv button {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  

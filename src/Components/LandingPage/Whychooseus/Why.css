@@ -1,0 +1,124 @@
+.whymaindiv {
+    background-color: var(--bgcolor);
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .whymaindiv h1 {
+    font-size: 6rem;
+    color: #fff;
+    font-family: "Bebas Neue", serif;
+    margin-bottom: 1.5rem;
+  }
+  
+  .whymaindiv span {
+    color: var(--maincolor);
+  }
+  
+  .whymaindiv p {
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: "Poppins", serif;
+    margin-bottom: 5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive Grid Layout */
+  .whycardcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    padding: 0 3rem;
+    justify-content: center;
+  }
+  
+  .whycarddiv {
+    border: 2px solid var(--maincolor);
+    padding: 4rem;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 0.05); */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .whycarddiv h2 {
+    color: #fff;
+    font-family: "Bebas Neue", serif;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  
+  .whycarddiv h3 {
+    color: var(--maincolor);
+    font-family: "Bebas Neue", serif;
+    margin: 1rem 0;
+    font-size: 2.8rem;
+    transition: color 0.3s ease-in-out;
+    text-align: left;
+  }
+  
+  .whycarddiv h4 {
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    transition: color 0.3s ease-in-out;
+    text-align: left;
+  }
+  
+  /* Hover Effect */
+  .whycarddiv:hover {
+    background-color: var(--maincolor);
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  .whycarddiv:hover h3,
+  .whycarddiv:hover h4,
+  .whycarddiv:hover h2 {
+    color: black;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .whymaindiv h1 {
+      font-size: 5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .whymaindiv h1 {
+      font-size: 4rem;
+    }
+  
+    .whymaindiv p {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .whymaindiv h1 {
+      font-size: 3.5rem;
+    }
+  
+    .whymaindiv p {
+      font-size: 1.2rem;
+    }
+  
+    .whycardcontainer {
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .whymaindiv h1 {
+      font-size: 3rem;
+    }
+  
+    .whymaindiv p {
+      font-size: 1rem;
+    }
+  }
+  

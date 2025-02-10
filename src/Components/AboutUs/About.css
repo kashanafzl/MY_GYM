@@ -1,0 +1,7 @@
+
+
+.aboutimg{
+    background-image: url('../../Assets/img/about.svg');
+    height: 100vh;
+    background-size: cover;
+}

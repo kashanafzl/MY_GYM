@@ -1,0 +1,170 @@
+/* General Styles */
+.signupdiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #EAEDFE;
+    height: 100vh;
+    /* padding: 2rem; */
+}
+
+/* Left Image Section */
+.signimgdiv {
+    width: 50%;
+}
+
+.signimgdiv img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.contentmaindiv h6{
+    text-align: center;
+    font-size: 3rem;
+    padding-block: 1rem;
+}
+
+.contentmaindiv P{
+    text-align: center;
+    padding-top: 3rem !important;
+}
+
+/* Right Form Section */
+.signcontentdiv {
+    width: 40%;
+    font-family: "Poppins", serif;
+    padding: 2rem;
+    text-align: center;
+}
+
+.signcontentdiv h1 {
+    font-size: 3rem;
+}
+
+.signcontentdiv p {
+    font-size: 1.2rem;
+    padding-block: 1rem;
+}
+
+/* Form Fields */
+.contentmaindiv {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.contentmaindiv label {
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.inputandicondiv {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.7rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    /* border: 1px solid #ccc; */
+}
+
+.inputandicondiv svg{
+    font-size: 1.6rem;
+}
+
+.inputandicondiv input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* Show Password Checkbox */
+.checkboxandinput {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.checkboxandinput span {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Buttons */
+.contentmaindiv button {
+    background-color: var(--maincolor);
+    width: 100%;
+    padding: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2rem;
+}
+
+.googlebtn {
+    background: transparent !important;
+    border: 1px solid blue !important;
+    color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.googlebtn img {
+    width: 20px;
+    height: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .signimgdiv {
+        width: 40%;
+    }
+    .signcontentdiv {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .signupdiv {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .signimgdiv {
+        width: 80%;
+        display: none;
+    }
+    .signcontentdiv {
+        width: 90%;
+        text-align: center;
+    }
+    .contentmaindiv label {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .signimgdiv {
+        width: 100%;
+    }
+    .signcontentdiv h1 {
+        font-size: 2rem;
+    }
+    .signcontentdiv p {
+        font-size: 1rem;
+    }
+    .inputandicondiv {
+        padding: 1rem;
+    }
+    .contentmaindiv button {
+        font-size: 1rem;
+    }
+}

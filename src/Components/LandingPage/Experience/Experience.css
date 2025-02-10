@@ -1,0 +1,54 @@
+
+
+.bg2div{
+    background-image: url('../../../Assets/img/bg2.svg');
+    height: 80vh;
+    background-size:cover;
+    padding-inline: 6rem;
+    background-repeat: no-repeat;
+    padding-block: 5rem;
+}
+
+.bg2div h1{
+    color: #fff;
+    font-size: 7rem;
+    font-family: "Bebas Neue", serif;
+}
+
+.bg2div span{
+    color: var(--maincolor);
+}
+
+.bg2div p{
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+    color: #fff;
+    width: 50%;
+}
+
+.bg2div button{
+    padding: 2rem;
+    background-color: transparent;
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+    margin-top: 2rem;
+    transition: 1s;
+}
+
+.bg2div button:hover{
+    background-color: var(--maincolor);
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+@media screen and (max-width:900px) {
+    
+.bg2div p{
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+    color: #fff;
+    width: 100%;
+}
+}
