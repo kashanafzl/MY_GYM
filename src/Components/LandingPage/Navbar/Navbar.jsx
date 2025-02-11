@@ -2,12 +2,24 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../../../Assets/img/logo.svg';
 
+// import { useNavigate } from "react-router-dom";
+
+
 export default function Navbar() {
+
+    // const navigate = useNavigate();
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  // const aboutpage = () => {
+  //   // Add authentication logic if needed
+  //   navigate("/about"); // Redirect to the dashboard or another page
+  // };
+
 
   return (
     <div className="bgdiv">
@@ -20,7 +32,7 @@ export default function Navbar() {
         <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <ul className="uflex">
             <li><a href="/">Home</a></li>
-            <li><a href="/">About Us</a></li>
+            <li><a href="/about">About Us</a></li>
             <li><a href="/">Class Booking</a></li>
             <li><a href="/">Contact Us</a></li>
           </ul>

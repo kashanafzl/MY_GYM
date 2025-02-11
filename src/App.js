@@ -10,6 +10,8 @@ import Login from './Components/Login/Login'
 import Home from './Components/Home';
 import SignUp from './Components/SignUp/SignUp';
 import About from './Components/AboutUs/About';
+import Trainingdetail from './Components/TrainingDetails/Trainingdetail';
+import Bmi from './Components/BMICalculator/Bmi';
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/about' element={<About />} />
+          <Route path='/trainingdetail' element={<Trainingdetail />} />
+          <Route path='/bmicalculator' element={<Bmi />} />
   
         </Routes>
       </Router>

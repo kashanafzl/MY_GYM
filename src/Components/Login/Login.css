@@ -1,0 +1,12 @@
+
+.fogetanddiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fogetanddiv p{
+    color: blue;
+    cursor: pointer;
+    font-size: 1.4rem;
+}

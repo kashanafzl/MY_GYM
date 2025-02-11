@@ -1,0 +1,49 @@
+
+
+.contentmaindiv textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .upload-btn {
+    background-color: #fff;
+    color: var(--maincolor);
+    padding: 12px 15px;
+    border: 2px dashed var(--maincolor);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    transition: 0.3s ease;
+    display: inline-block;
+  }
+  
+  
+  .file-name {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .submit-btn {
+    background-color: var(--maincolor);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3rem;
+    transition: 0.3s ease;
+  }

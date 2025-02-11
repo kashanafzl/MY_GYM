@@ -10,9 +10,23 @@
     /* padding: 2rem; */
 }
 
+
+.contentmaindiv span{
+    cursor: pointer;
+}
+
+.logoimgmain{
+    width: 100px !important;
+    height: 50px !important;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
 /* Left Image Section */
 .signimgdiv {
     width: 50%;
+    position: relative;
 }
 
 .signimgdiv img {
@@ -137,6 +151,7 @@
     .signupdiv {
         /* flex-direction: column; */
         align-items: center;
+        padding-inline: 2rem;
     }
     .signimgdiv {
         width: 80%;

@@ -4,4 +4,92 @@
     background-image: url('../../Assets/img/about.svg');
     height: 100vh;
     background-size: cover;
+    margin-block: 10rem;
+    margin-inline: 10rem;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+    padding-inline: 4rem;
+}
+
+
+.aboutimg h1{
+    color: #fff;
+    font-size: 7rem;
+    padding-top: 4rem;
+}
+
+
+.aboutimg p{
+    font-size: 1.6rem;
+    color: #fff;
+    width: 50%;
+}
+
+.aboutimg button{
+    background-color: var(--maincolor);
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem;
+    transition: 1s;
+}
+
+.aboutimg button:hover{
+    background-color: black;
+    color: var(--maincolor);
+    transition: 1s;
+    transform: translateY(-5px);
+}
+
+.playdiv{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playdiv img{
+    cursor: pointer;
+}
+
+
+.welcomdiv{
+    background-image: url('../../Assets/img/about2.svg');
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.progress-text{
+    color: #fff;
+}
+
+
+.progress-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-ring {
+    transform: rotate(-90deg); /* Rotates to start from the top */
+}
+
+.progress-text {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E60023; /* Red color */
+}
+
+
+.welcomeflexdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 6rem;
+    padding-block: 4rem;
 }

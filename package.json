@@ -2,7 +2,7 @@
   "name": "mygym",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kashanafzl.github.io/MY_GYM",
+  "homepage": "https://kashanafzl.github.io",
   "dependencies": {
     "@react-google-maps/api": "^2.20.5",
     "cra-template": "1.2.0",
