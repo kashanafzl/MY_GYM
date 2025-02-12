@@ -101,6 +101,24 @@
     gap: 5px;
     cursor: pointer;
   }
+
+
+  .paretnexdiv{
+    display: flex;
+  }
+
+  .exdiv{
+    color: var(--maincolor);
+    font-family: "Poppins", serif;
+    border-right: 1px solid gray;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .exdiv h3{
+    font-size: 4rem;
+    text-align: center;
+  }
   
   .hamburger-menu span {
     width: 30px;

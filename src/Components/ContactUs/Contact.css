@@ -1,0 +1,165 @@
+/* Contact Page Styles */
+.contactusdiv h1 {
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 80px;
+}
+
+.contactusdiv h2 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px;
+}
+
+/* Contact Form & Image */
+.maincontactandtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 40px 5%;
+}
+
+.imgco {
+    width: 50%;
+    text-align: center;
+}
+
+.imgco img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Form */
+.cinputdiv {
+    background-color: #DD152E;
+    width: 40%;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cinputdiv input,
+.cinputdiv textarea {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.cinputdiv textarea {
+    height: 120px;
+}
+
+.cinputdiv button {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #DD152E;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.cinputdiv button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* FAQ Section */
+.linediv {
+    background-image: url('../../Assets/img/line.png');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linediv h1 {
+    font-size: 4rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .contactusdiv h1 {
+        font-size: 5rem;
+    }
+
+    .contactusdiv h2 {
+        font-size: 3.5rem;
+    }
+
+    .maincontactandtext {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgco {
+        width: 80%;
+    }
+
+    .cinputdiv {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactusdiv h1 {
+        font-size: 4rem;
+    }
+
+    .contactusdiv h2 {
+        font-size: 3rem;
+    }
+
+    .imgco {
+        width: 100%;
+    }
+
+    .cinputdiv {
+        width: 100%;
+    }
+
+    .linediv h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactusdiv h1 {
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+
+    .contactusdiv h2 {
+        font-size: 2.5rem;
+    }
+
+    .linediv {
+        height: 60vh;
+    }
+
+    .linediv h1 {
+        font-size: 2rem;
+    }
+}

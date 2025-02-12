@@ -59,6 +59,23 @@ export default function Navbar() {
           improvement.
         </p>
         <button>Let’s Join Now</button>
+
+        <div className="paretnexdiv">
+        <div className='exdiv'>
+            <h3>20+</h3>
+            <p>Year of experience</p>
+        </div>
+
+        <div className='exdiv'>
+            <h3>14+</h3>
+            <p>Member Join</p>
+        </div>
+
+        <div className='exdiv'>
+            <h3>15+</h3>
+            <p>Join Team</p>
+        </div>
+        </div>
       </div>
     </div>
   );
