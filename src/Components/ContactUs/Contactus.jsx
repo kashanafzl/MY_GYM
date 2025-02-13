@@ -7,9 +7,14 @@ import Footer from '../LandingPage/Footer/Footer';
 
 export default function Contactus() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openIndex, setOpenIndex] = useState(null); // State for FAQ accordion
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
@@ -63,8 +68,29 @@ export default function Contactus() {
           </div>
         </div>
 
+       
         <div className='linediv'>
+       
+      
+          {/* FAQ Section */}
+          <div className="faq-section">
+
+
           <h1>FAQ'S</h1>
+
+
+            {faqData.map((faq, index) => (
+              <div key={index} className="faq-item">
+                <div className="faq-question" onClick={() => toggleFAQ(index)}>
+                  {faq.question}
+                  <span>{openIndex === index ? "−" : "+"}</span>
+                </div>
+                <div className={`faq-answer ${openIndex === index ? "open" : ""}`}>
+                  {faq.answer}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -72,3 +98,31 @@ export default function Contactus() {
     </>
   );
 }
+
+// FAQ Data
+const faqData = [
+  {
+    question: "How can I contact customer support?",
+    answer: "You can reach out to our support team via email at  You can reach out to our support team via email at support@example.com or through our contact form. You can reach out to our support team via email at support@example.com or through our contact form.support@example.com or through our contact form.",
+  },
+  {
+    question: "What are your business hours?",
+    answer: "You can reach out to our support team via email at support@example.com or through our contact form.You can reach out to our support team via email at support@example.com or through our contact form.",
+  },
+
+  {
+    question: "What are your business hours?",
+    answer: "You can reach out to our support team via email at support@example.com or through our contact form.You can reach out to our support team via email at support@example.com or through our contact form.",
+  },
+
+  {
+    question: "What are your business hours?",
+    answer: "You can reach out to our support team via email at support@example.com or through our contact form.You can reach out to our support team via email at support@example.com or through our contact form..",
+  },
+
+  {
+    question: "Do you offer refunds?",
+    answer: "YYou can reach out to our support team via email at support@example.com or through our contact form.",
+  },
+];
+

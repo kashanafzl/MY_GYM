@@ -1,0 +1,84 @@
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+  color: #fff;
+  font-family: "Poppins", serif;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cparentdivv h1{
+    background: black;
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    padding-block: 4rem;
+    font-family: "Poppins", serif;
+  }
+
+  .cparentdivv span{
+    color: var(--maincolor);
+  }
+
+
+  .cparentdiv p{
+    padding-inline: 4rem;
+    padding-bottom: 3rem;
+  }
+
+
+  .textjohn{
+    color: #fff;
+    padding-block: 2rem !important;
+    font-size: 2rem;
+  }
+
+  .tmaindiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tmaindiv img{
+    height: 80px !important;
+    width: 80px !important;
+    border-radius: 10px !important;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cparentdiv{
+    text-align: center;
+  }
+  
+  .stardiv{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .stardiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .stardiv img{
+    height: 30px;
+    width: 30px;
+  }

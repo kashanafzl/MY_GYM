@@ -1,0 +1,17 @@
+
+
+.trainingclassesmaindiv{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.trainingclassesmaindiv h1{
+    color: #fff;
+    font-size: 7rem;
+    padding-top: 2rem;
+}
+
+.trainingclassesmaindiv p{
+    color: #fff;
+    font-size: 2rem;
+}

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './Navbar.css';
-import logo from '../../../Assets/img/logo.svg';
-
+import '../LandingPage/Navbar/Navbar.css';
+import logo from '../../Assets/img/logo.svg';
+import './Trainingclasses.css'
 // import { useNavigate } from "react-router-dom";
 
 
-export default function Navbar() {
+export default function Trainingclasses() {
 
     // const navigate = useNavigate();
 
@@ -50,33 +50,10 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="maincontentdiv">
-        <h1>Unlock Your <br /><span>Best Self</span></h1>
-        <p>
-          Gym training is a structured and disciplined approach to physical <br />
-          exercise that focuses on strength, endurance, and overall fitness <br />
-          improvement.
-        </p>
-        <button>Let’s Join Now</button>
-
-        <div className="paretnexdiv">
-        <div className='exdiv'>
-            <h3>20+</h3>
-            <p>Year of experience</p>
-        </div>
-
-        <div className='exdiv'>
-            <h3>14+</h3>
-            <p>Member Join</p>
-        </div>
-
-        <div className='exdiv'>
-            <h3>15+</h3>
-            <p>Join Team</p>
-        </div>
-        </div>
-      </div>
+<div className='trainingclassesmaindiv'>
+    <h1>Training Classes</h1>
+    <p>In quisque nunc dictumst etiam pellentesque et. Vel malesuada diam lorem tellus. Amet mauris feugiat ipsum natoque odio donec. Sit at lacus consequat justo odio condimentum dui. Faucibus id blandit feugiat mi tellus sit etiam donec aliquam. Dictumst egestas ut facilisi vel.</p>
+</div>
     </div>
   );
 }
