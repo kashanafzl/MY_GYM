@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../LandingPage/Navbar/Navbar.css';
-import logo from '../../Assets/img/logo.svg';
+import logo from '../../Assets/img/logo.png';
 import './Contact.css';
 import contactus from '../../Assets/img/contact.png';
 import Footer from '../LandingPage/Footer/Footer';

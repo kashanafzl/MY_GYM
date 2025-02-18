@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../LandingPage/Navbar/Navbar.css';
 import './About.css';
-import logo from '../../Assets/img/logo.svg';
+import logo from '../../Assets/img/logo.png';
 import p1 from '../../Assets/img/play1.svg';
 import p2 from '../../Assets/img/play2.svg';
 import p3 from '../../Assets/img/play3.svg';

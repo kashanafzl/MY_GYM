@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
 
 import "../SignUp/SignUp.css";
 
@@ -6,7 +6,7 @@ import "../Login/Login.css";
 import signimg from "../../Assets/img/give.svg";
 
 
-import logo from "../../Assets/img/logo.svg";
+import logo from "../../Assets/img/logo.png";
 
 
 export default function Bmi() {

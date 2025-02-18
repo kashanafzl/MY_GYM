@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../SignUp/SignUp.css";
 import "./Trainingdetail.css";
 import signimg from "../../Assets/img/give.svg";
-import logo from "../../Assets/img/logo.svg";
+import logo from "../../Assets/img/logo.png";
 
 export default function Trainingdetail() {
   const [fileName, setFileName] = useState("");

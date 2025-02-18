@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import '../LandingPage/Navbar/Navbar.css';
-import logo from '../../Assets/img/logo.svg';
+import logo from '../../Assets/img/logo.png';
 import './Trainingclasses.css'
 // import { useNavigate } from "react-router-dom";
 
+import jackimg from '../../Assets/img/jack.png'
+import Footer from '../LandingPage/Footer/Footer';
 
 export default function Trainingclasses() {
 
@@ -22,6 +24,7 @@ export default function Trainingclasses() {
 
 
   return (
+    <>
     <div className="bgdiv">
       <div className="navbardiv">
         <div className="logo">
@@ -55,5 +58,90 @@ export default function Trainingclasses() {
     <p>In quisque nunc dictumst etiam pellentesque et. Vel malesuada diam lorem tellus. Amet mauris feugiat ipsum natoque odio donec. Sit at lacus consequat justo odio condimentum dui. Faucibus id blandit feugiat mi tellus sit etiam donec aliquam. Dictumst egestas ut facilisi vel.</p>
 </div>
     </div>
+
+
+<div className="bgdivthree">
+
+<div className="mainflextrainingdiv">
+<div className='traincontent'>
+    <h1>Our Trainers</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus interdum nunc, et eleifend neque sagittis et. Donec dignissim quam eu aliquet fermentum. Suspendisse potenti. Cras commodo ante mauris, at vulputate risus mattis a. Suspendisse potenti. </p>
+  
+    <button>Get Stated</button>
+  </div>
+
+  <div className='jackimg'>
+    <img src={jackimg} alt="" />
+  </div>
+</div>
+
+</div>
+
+
+<div className='memberdiv'>
+  <h1>Membership Pricing</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+  <div className='btntraindiv'>
+    <button>WithOut Training</button>
+    <button>With Training</button>
+  </div>
+
+
+<div className="mainprice">
+  
+
+<div className='trainprice'>
+  <h5>Day</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus interdum nunc, et eleifend neque sagittis et. Donec dignissim quam eu aliquet fermentum</p>
+  <hr />
+  <h3>RS. 1000</h3>
+  <button>Get Stated</button>
+</div>
+<div className='trainprice'>
+  <h5>Week</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus interdum nunc, et eleifend neque sagittis et. Donec dignissim quam eu aliquet fermentum</p>
+  <hr />
+  <h3>RS. 10000</h3>
+  <button>Get Stated</button>
+</div>
+<div className='trainprice'>
+  <h5>Month</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus interdum nunc, et eleifend neque sagittis et. Donec dignissim quam eu aliquet fermentum</p>
+  <hr />
+  <h3>RS. 30000</h3>
+  <button>Get Stated</button>
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+<div className="bgdiv4">
+
+  <div className="divtrainingdiv">
+  <h1>Member’s Success Story</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus interdum nunc, et eleifend neque sagittis et. </p>
+    
+
+    <div  className='jackimgmaindiv'>
+    <img src={jackimg} alt="" />
+  <img src={jackimg} alt="" />
+  <img src={jackimg} alt="" />
+    </div>
+
+  </div>
+  
+</div>
+
+
+<Footer/>
+
+    </>
   );
 }

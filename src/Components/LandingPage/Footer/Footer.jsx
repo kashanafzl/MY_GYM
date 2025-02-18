@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-import logo from '../../../Assets/img/logo.svg'
+import logo from '../../../Assets/img/logo.png'
 
 export default function Footer() {
   return (

@@ -15,3 +15,162 @@
     color: #fff;
     font-size: 2rem;
 }
+
+
+
+
+.bgdivthree{
+    background-image: url('../../Assets/img/bg3.png');
+    height: 100vh;
+    padding-block: 5rem;
+}
+
+
+.mainflextrainingdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    font-family: "Poppins", serif;
+    color: #fff;
+
+}
+
+.jackimg{
+    flex: 1;
+}
+
+.jackimg img{
+    width: 400px;
+}
+
+.traincontent{
+    padding-top: 10rem;
+    flex: 2;
+}
+
+.traincontent h1{
+
+    font-size: 7rem;
+}
+
+
+.traincontent p{
+    font-size: 1.8rem;
+    width: 60%;
+}
+
+
+.traincontent button{
+    background-color: black;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+
+.memberdiv{
+    text-align: center;
+    font-family: "Poppins", serif;
+    padding-block: 4rem;
+}
+
+.memberdiv h1{
+    font-size: 5rem;
+}
+
+.memberdiv p{
+    font-size: 1.8rem;
+    padding-block: 2rem;
+}
+
+.btntraindiv{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.memberdiv button{
+    background-color: gray;
+    color: black;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.memberdiv button:hover{
+    background-color: var(--maincolor);
+}
+
+
+.mainprice{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 4rem;
+    padding-inline: 4rem;
+}
+
+.trainprice{
+    width: 350px;
+    background-color: gray;
+    border: 2px solid var(--maincolor);
+    border-radius: 6px;
+    padding: 2rem;
+}
+
+.trainprice h5{
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 10rem;
+}
+
+.trainprice h3{
+    padding-block: 2rem;
+}
+
+.trainprice p{
+    font-size: 1.4rem;
+}
+.trainprice button{
+    background-color: var(--maincolor ) !important;
+}
+
+
+.bgdiv4{
+    background-image: url('../../Assets/img/bg3.png');
+    height: 100vh;
+    padding-block: 5rem;
+}
+
+
+.divtrainingdiv{
+    padding-block: 4rem;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.divtrainingdiv h1{
+    text-align: center;
+    font-size: 6rem;
+}
+
+.divtrainingdiv p{
+    font-size: 1.7rem;
+}
+
+.divtrainingdiv img{
+    width: 300px;
+}
+
+
+.jackimgmaindiv{
+    display: flex;
+    justify-content: center;
+}

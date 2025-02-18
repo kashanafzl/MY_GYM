@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate
 import signimg from "../../Assets/img/give.svg";
 import googleimg from '../../Assets/img/google.svg';
 
-import logo from '../../Assets/img/logo.svg';
+import logo from '../../Assets/img/logo.png';
 
 import { MdOutlineMail } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
